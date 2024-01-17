@@ -1,0 +1,164 @@
+@media screen and (max-width:600px){
+    .nav-section{
+        align-items: center;
+    }
+    .nav-section li{
+        display: none;
+    }
+    .menu .menu-item{
+        display: none;
+    }
+   
+    .menu  .icon{
+        margin-right: 30px;
+        display: block;
+        color: black;
+    }
+    
+    
+}
+
+/* banner */
+@media screen and (max-width:600px){
+    .banner{
+        margin-top:20px;
+        /* width: 100%; */
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+    .box-categories{
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin-left: 10px;
+    }
+    .box-categories input{
+        margin-left: 10px;
+        width: 154px;
+    }
+    .banner-text{
+        width: 80%;
+        text-align: justify;
+    }
+  
+
+
+  /* popular tour */
+
+  .popular-tour {
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+
+.tour-content {
+    width: 100%;
+    padding: 50px;
+    /* display: block; */
+}
+
+
+/* destination */
+
+
+
+/* choose section */
+
+.choose-content {
+    /* text-align: center; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.choose-box1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-box2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.box1{
+    max-width: 90%;
+    padding: 10px;
+    height: 289px;
+
+}
+
+.box2{
+    max-width: 90%;
+    padding: 10px;
+    height: 289px;
+
+}
+
+
+/* newsletter section */
+.newsletter {
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+
+
+}
+
+.newsletter-container {
+    flex-direction: column;
+    align-items: center; 
+}
+
+.newsletter-content {
+    max-width:  435px;
+    height: 353px;
+  
+    width: 100%;
+}
+
+hr {
+    width: 400px;
+   
+}
+.newsletter-image{
+    width: 95%;
+}
+
+.newsletter-offer {
+   
+    border-radius: 16px;
+    background: #FF5400;
+    width: 340px;
+    height: 120px;
+    color: #FFFF;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    transform: rotate(-20.2deg) scale(0.60) translateX(450px) translateY(-140px);
+
+}
+
+
+/* footer */
+
+.footer {
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+}
+
+.footer-section {
+   
+    padding: 30px 44px 5px 44px;
+}
+
+.social-media  {
+    width: 350px;
+    /* text-align: center; */
+
+
+    /* 162.5% */
+}
+
+}
